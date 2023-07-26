@@ -1,0 +1,348 @@
+/* Kiểu CSS cho điện thoại di động */
+@media only screen and (max-width: 600px) {
+    /* Đặt kiểu CSS cho điện thoại di động ở đây
+    /* background css sta */
+#banner{
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;   
+  background-color: rgba(0, 0, 0, 1);   
+}
+
+.container-text-banner{
+  padding-top: 100px;
+}
+
+.container-text-banner> span{
+  color: white;
+}
+
+/* navbar */
+section > .container-nav{
+  display: grid;
+  color: #f2f2f2;
+  grid-template-columns: repeat(1,auto);
+  justify-content: left;
+  font-size: 17px;
+  width: 110px;
+  padding-left: 10px;
+}
+
+.container-nav{
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.topnav-icon{
+  color: black;
+  line-height: 40px;
+}
+.topnav-info{
+  padding-right: 40px;
+  padding-left: 40px;
+  color: black;
+}
+
+
+/* màu cho icon */
+i{
+  color: rgba(0, 128, 255, 0.661);
+  padding-right: 10px;
+}
+/* loại cỏ gạch chân thể a */
+.container-nav a{
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+#it-ct{
+  display: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+span{
+  font-size: medium;
+  color: black;
+}
+
+.container-nav a:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.container-nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* chia thành 2 cột mỗi cột 50% */
+
+/* navbar */
+
+/* thông tin cá nhân start */  
+  section >.container-target{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+    /* text-align: center;
+    justify-content: center; */
+}
+.target{
+ 
+    padding-left: 5%;
+    padding-right: 10%;
+    background-color: rgb(240, 238, 238);
+}
+.section-title {
+  padding-bottom: 10px;
+}
+
+.info{
+padding-left: 30px;
+  
+}
+
+.info ul{
+  list-style-type: none; 
+  transform: translate(-30px);
+  
+}
+
+.icon-container {
+  padding-top: 20px;
+}
+/* thông tin cá nhân css end */
+
+/* kinh nghiệm */
+.container-job-info {
+  /* display: grid;
+  grid-template-columns: repeat(2, 350px);
+  grid-template-rows: repeat(5, auto);
+  gap: 20px; */
+  gap: 20px;
+
+}
+.item-info {
+  border: 1px solid black;
+  padding: 0 20px 0 20px;
+  width: 400px;
+      /* padding: top right bottom left; */
+}
+.item-info:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3; 
+}
+.container-title-ic{
+  display: flex;
+  justify-content: space-between;
+}
+#icon-title {
+  padding-left: 40px;
+  font-size: 25px;
+  padding-top: 20px;
+  
+}
+.text2{
+  padding-top: 70px;
+}
+#icon-interest {
+  border-radius: 50%; /* Tạo đường bo tròn cho icon */
+  font-size: 25px;
+  display: inline-block;
+  width: 40px; /* Kích thước của phần tử chứa chữ cái */
+  height: 40px;
+  color: rgb(74, 173, 230);
+  justify-content: center;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%; /* Đường viền tròn */
+  border: 2px solid rgb(74, 173, 230); /* Màu và độ dày của đường viền */
+}
+
+.container-interest {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0px 0px 0px; 
+} 
+#icon-title{
+  color: rgb(74, 173, 230);
+  font-size: 35px;
+}
+
+.test {
+  background: #199cdb;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 45px;    
+}
+
+.container-test{
+  padding: 20px 0 20px 0;
+}
+
+.non-test {
+  background: #e8ebed;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 50px;    
+}
+
+/* chứng chỉ */
+#certificate{
+  background-color: rgb(247, 247, 247);
+}
+.container-certificate {
+align-items: center;
+text-align: center;
+
+}
+
+.section-title{
+  padding-top: 40px;
+}
+
+.container-certificate-text1 {
+ 
+  border-bottom: 1px solid rgb(240, 158, 65);
+  /* padding-right: 50px; */
+  padding-bottom: 30px;
+}
+
+.container-certificate-text2 {
+  
+  border-bottom: 1px solid rgb(240, 158, 65);
+  padding-top: 40px;
+}
+
+.container-certificate-text3 {
+ 
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.imgg {
+  border-bottom: 1px solid rgb(240, 158, 65);
+}
+
+.container-certificate-text1 img {
+  height: 200px;
+  /* padding-right: 30px; */
+}
+
+.container-certificate-text2 img {
+  height: 200px;
+  /* padding-right: 30px; */
+  /* padding-left: 20px; */
+  /* border-left: 1px solid rgb(240, 158, 65); */
+}
+
+.container-certificate-text3 img {
+  height: 200px;
+  /* padding-right: 30px; */
+}
+
+/* .text  {
+  padding: 20px 0 10px 0;
+  color: #708090;
+} */
+
+/* dự án */
+
+/* .container-project {
+  display: grid; 
+  grid-template-columns: repeat(1,auto);
+ } */
+ 
+ /* bố cục thẻ chứa */
+ 
+ .img-project{
+     width: 100%;
+ }
+ 
+ .position-project{
+     display: flex;
+     padding: 10px 0 10px 0;
+ 
+ }
+ 
+ .item-project {
+     
+     padding-top: 40px;
+ }
+ 
+ /* viền cho project */
+ 
+ .individual{
+     border: 1px solid darkgrey;  
+     padding: 10px 0 10px 10px;
+ }
+ .position-project{
+     border-bottom: 1px solid darkgrey; 
+     border-right: 1px solid darkgrey;
+     border-left: 1px solid darkgrey;
+     padding: 10px 0 10px 10px;
+ }
+ /* viền cho project */
+ 
+ /* vị trí dự án */
+ #project{
+     padding-bottom: 50px;
+ }
+ .year-project{
+     border-radius: 30px;
+     background-color: #87CEEB;
+     padding: 0 10px 0 10px;
+ }
+ #icon-project{
+     padding-left: 20px;
+ }
+ /* vị trí dự án */
+ 
+ /* kich thươc table */
+ 
+ .left-decsription{
+     width: 30%;
+     padding: 10px 10px;
+  
+ }
+ .right-decsription{
+    width: 60%;
+    padding: 10px 10px;
+     
+ }
+ 
+ .box {
+     display: flex;
+     border-bottom: 1px solid darkgray;
+     border-left: 1px solid darkgray;
+     border-right: 1px solid darkgray;
+ }
+ 
+ #nobox {
+     padding-bottom: 30px;
+ }
+
+ /* footer */
+ .container-contact{
+  display: flex;
+  list-style-type: none;
+  font-size: large;
+  justify-content: center;
+  padding: 30px 20px 30px 20px;
+  background-color: rgb(241, 241, 241);
+}
+
+#ic-contact {
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+
+}
+  
